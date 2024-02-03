@@ -1,14 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://imgs.search.brave.com/z9fjpyCF881V6nG02xIa9FMPp6YwGIgQmiNIW_vjQ3M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9udW1i/ZXJzLTQ3NDIzNzAu/anBn');
+  background-size: cover;
+  background-position: center;
+}
+
 .container {
+  max-width: 600px;
+  margin: 0 auto;
   text-align: center;
-  margin-top: 50px;
+}
+
+.button-container {
+  margin-top: 20px;
 }
 
 button {
-  padding: 10px 20px;
-  margin: 5px;
-  font-size: 16px;
-  border-radius: 5px;
-  background-color: #4CAF50;
+  padding: 20px 40px;
+  margin: 10px;
+  font-size: 24px; 
+  border-radius: 10px;
+  background-color: #205822;
   color: white;
   border: none;
   cursor: pointer;
@@ -18,19 +30,20 @@ button:hover {
   background-color: #45a049;
 }
 
-.result {
-  font-size: 18px;
-  margin-top: 20px;
-}
-
-.numbers {
-  margin-top: 20px;
-}
-
-.numbers button {
-  margin: 5px;
-  width: 80px;
-  height: 80px;
-  font-size: 20px;
+.number-button {
+  width: 150px; 
+  height: 150px; 
+  font-size: 36px; 
   border-radius: 50%;
+}
+.textRandom{
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  background-color: aliceblue;
+}
+.lostGame{
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
 }
